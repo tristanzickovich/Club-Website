@@ -1,0 +1,526 @@
+body{
+  background-color: #37A7AD;
+}
+
+.home{
+  text-decoration: none;
+  color: white;
+}
+/*  UNCOMMENT FOR FLAKE GIF
+#flake1{
+    position: absolute;
+    margin: 20px 0px 0px 40px;
+    padding: 0;
+    height: 90px;
+    width: 90px;
+}
+
+#flake2{
+    position: absolute;
+    margin: 20px 30px 0px 88%;
+    padding: 0;
+    height: 90px;
+    width: 90px;
+}
+*/
+
+header{
+  background-color: #656464;
+}
+
+h1{
+  color: white;
+  font-size: 2em;
+  font-family: chiller, courier;
+  margin:0;
+}
+
+h2{
+  color: white;
+  font-size: 5em;
+  font-family: chiller, courier;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h1 a:hover, h2 a:hover{
+    color: #86FAFF;
+}
+
+#nav{
+  float:left;
+  width: 100%;
+}
+
+#nav li{
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  padding-right: 5px;
+  position: relative;
+}
+
+#nav a:link, #nav a:visited{
+  display: inline-block;
+  border: 5px solid black;
+  border-radius: 100%;
+  padding: 10px 40px 10px 40px;
+  width:170px;
+  height: 40px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#nav a:hover{
+  background-color: white;
+  color: black;
+  font-size: 1.4em;
+}
+
+#snowboardhome{
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 650px;
+}
+
+.postit{
+  border: 5px solid black;
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Comic Sans MS;
+  background-color: #656464;
+  color: white;
+  padding: 10px;
+}
+
+.postit ul{
+  border: 5px solid black;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  margin-left: -15px;
+  margin-bottom: -15px;
+  padding-bottom: 10px;
+  background-color: white;
+  list-style-type: none;
+  padding-left:20px;
+}
+
+.postit li{
+  color: #33332F;
+}
+
+#geninfo{
+    float: left;
+    font-size: 2em;
+    position: relative;
+    margin: 10px;
+    margin-top: -15px;
+    margin-bottom: 0;
+    padding: 10px;
+    width: 50%;
+}
+
+#geninfo dl{
+    border: 5px solid black;
+    background-color: #656464;
+    color: white;
+    padding: 10px;
+}
+
+#geninfo dl dd{
+    font-size: .8em;
+}
+
+#keydetails{
+    border: 5px solid black;
+    position: relative;
+    margin-top: 8%;
+    margin-left: 54%;
+    margin-right: 15px;
+    background-color: #656464;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 42%;
+}
+
+#keydetails h{
+    font-size: 2em;
+}
+
+#keydetails dl dt{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#keydetails dl dd{
+    font-size: 1.2em;
+    text-align: left;
+}
+
+#officers{
+    text-align: center;
+    position: relative;
+    border: 5px solid black;
+    margin-left: 54%;
+    margin-top: 10px;
+    background-color: #656464;
+    color: white;
+    padding: 10px;
+    width: 24%
+}
+
+#officers h{
+    font-size: 1.5em;
+}
+
+#officers dl dt{
+    font-size: 1.2em;
+    text-align: left;
+}
+
+#officers dl dd{
+    font-size: 1em;
+    text-align: left;
+}
+
+#snowman{
+    border: 5px solid black;
+    height:200px;
+    width: 200px;
+    position: absolute;
+    margin-left: 81.5%;
+    margin-top: -210px;
+    padding: 0;
+}
+
+#upcoming{
+    border: 5px solid black;
+    background-color: #656464;
+    position: relative;
+    float: left;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 45%;
+}
+
+#upcoming h{
+    font-size: 2em;
+}
+
+#upcoming ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#upcoming li{
+    font-size: 1.8em;
+    text-align: left;
+}
+
+#skiinfo{
+    height: 400px;
+    width: 640px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#mediacontact{
+    border: 5px solid black;
+    position: relative;
+    background-color: #656464;
+    float: left;
+    width: 49.3%;
+    padding: 0px;
+    margin: -80px 20px 10px 20px;
+}
+
+#facebook{
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    margin-right: 5px;
+    margin-left: 12px;
+}
+
+#twitter{
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    margin-right: 5px;
+}
+
+#emailus{
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}
+
+#reminders{
+    border: 5px solid black;
+    background-color: #656464;
+    position: relative;
+    float: left;
+    margin: 15px;
+    margin-top: -100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 45%;
+}
+
+#reminders h{
+    font-size: 2em;
+}
+
+#reminders ul{
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.7em;
+    text-align: left;
+}
+
+
+#locations{
+    border: 5px solid black;
+    text-align: center;
+    background-color: #656464;
+    position: relative;
+    margin:20px;
+    padding: 10px;
+    width: 30%;
+    float: left;
+    color: white;
+}
+
+#locations h{
+    font-size: 2em;
+}
+
+#locations h2{
+    font-size: 1em;
+    font-family: none;
+    font-weight: normal;
+}
+
+#locations a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+}
+
+#locations a:hover{
+    color: #86FAFF;
+}
+
+#locations ul{
+    text-align: left;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#skiinggif{
+    border: 5px solid black;
+    width: 418px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#costs{
+    position: relative;
+    border: 5px solid black;
+    background-color: #656464;
+    color: white;
+    width: 60%;
+    float: right;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#costs h{
+    font-size: 2em;
+}
+
+#costs ul{
+    text-align: left;
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+
+#rentals{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    margin: 20px;
+    padding-top: 10px;
+    background-color: #656464;
+    border: 5px solid black;
+}
+
+#rentals h, #purchase h{
+    font-size: 2em;
+    color: white;
+}
+
+#rentals ul, #purchase ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+#rentals li, #purchase li{
+    margin-left: -20px;
+    padding: 10px;
+    padding-left: 0;
+}
+
+#rentals li a:visited, a:link, #purchase li a:visited, a:link, #tickets li a:visited, a:link{
+    color: white;
+    text-decoration: none;
+}
+
+#rentals li a:hover, #purchase li a:hover, #tickets li a:hover{
+    color: #86FAFF;
+    text-decoration: underline;
+}
+
+#rentals img, #purchase img{
+    height: 75px;
+    width: 200px;
+    padding-right: 10px;
+    align: middle;
+}
+
+#rentals p, #purchase p, #tickets p{
+    padding:0;
+    margin:0;
+}
+
+#purchase{
+    float: right;
+    position: relative;
+    width: 71.5%;
+    text-align: center;
+    border: 5px solid black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 0px;
+    margin: 20px;
+    margin-left: 0;
+    background-color: #656464;
+}
+
+#purchase ul{
+  float: left;
+  margin: 0;
+  padding: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+#purchase li{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 10 px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+#snowboardinggif{
+    positon: relative;
+    float: right;
+    margin: 20px;
+    margin-top: 0;
+    height: 261px;
+    width: 500px;
+    border: 5px solid black;
+}
+
+#tickets{
+    text-align: center;
+    border: 5px solid black;
+    position: relative;
+    float: left;
+    background-color: #656464;
+    width: 32.5%;
+    margin: 10px;
+    margin-top: 0px;
+    color: white;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tickets h{
+    font-size: 1.7em;
+}
+
+#tickets h2{
+    font-size: 1em;
+    font-family: none;
+    font-weight: normal;
+}
+
+#tickets ul{
+    list-style-type: none;
+    float: left;
+    margin-top: 7px;
+    position: relative;
+}
+
+#tickets li{
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 65px;
+    float: left;
+    position: relative;
+
+}
+
+#tickets img{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+#sickvids{
+    position: relative;
+    margin-top: 80px;
+    left: 5%;
+}
+
+#sickvids iframe{
+    height: 315px;
+    width: 560px;
+    color: white;
+    padding: 20px;
+}
